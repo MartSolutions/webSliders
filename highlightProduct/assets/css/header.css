@@ -1,0 +1,27 @@
+/* header */
+header{
+    background:var(--headerC);
+    backdrop-filter: var(--blur);
+    padding:1rem;
+    font-size: 1rem;
+    position: fixed;
+    inset: 0 0 auto 0;
+    width: 100%;
+    margin:0 auto;
+    height:4rem;
+    max-height:4rem;
+    position:fixed;
+    overflow: hidden;
+    z-index:9;
+}
+
+header a{
+    color:var(--primary);
+    font-size: 1.75rem;
+    font-weight: 900;
+    /* text-shadow:0 0 1px #000, -1px -1px 1px #fff5, 0 0 15px #05bd8f50; */
+    transform:rotateZ(-5deg);
+    display: block;
+    max-width: max-content;
+
+}
